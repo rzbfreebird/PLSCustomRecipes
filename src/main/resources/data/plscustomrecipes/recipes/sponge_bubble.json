@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WCW",
+    "CHC",
+    "WCW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:yellow_wool"
+    },
+    "H": {
+      "item": "minecraft:honey_block"
+    },
+    "C": {
+      "item": "minecraft:bubble_coral_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:sponge",
+    "count": 1
+  }
+} 

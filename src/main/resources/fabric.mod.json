@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "plscustomrecipes",
+	"version": "${version}",
+	"name": "PLSCustomRecipes",
+	"description": "服务器端mod：允许玩家在服务器上合成鞘翅和海绵，鞘翅配方需要击败末影龙后解锁",
+	"authors": [
+		"您的名字"
+	],
+	"contact": {},
+	"license": "MIT",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"com.ren.plscustomrecipes.PLSCustomRecipes"
+		]
+	},
+	"mixins": [
+		"plscustomrecipes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.6",
+		"fabric-api": "*",
+		"minecraft": ">=1.19",
+		"java": ">=17"
+	}
+}
